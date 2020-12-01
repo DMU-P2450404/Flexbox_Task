@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.flex-container {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+  transition: 0.1s background-color;
+}
+
+nav a:hover {
+  background-color: purple;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: purple;
+  margin: 3px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
